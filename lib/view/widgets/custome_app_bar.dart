@@ -11,7 +11,7 @@ class CustomeAppBar extends StatelessWidget {
         Text(
           "Notes",
           style: TextStyle(
-            fontSize: 32.0,
+            fontSize: 28.0,
           ),
         ),
         Spacer(),
