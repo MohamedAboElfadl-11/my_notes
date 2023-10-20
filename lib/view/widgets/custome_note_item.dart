@@ -9,7 +9,7 @@ class NotesItem extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.only(
         top: 24.0,
-        bottom: 24.0,
+        bottom: 16.0,
         left: 8.0,
       ),
       decoration: BoxDecoration(
@@ -28,12 +28,12 @@ class NotesItem extends StatelessWidget {
               ),
             ),
             subtitle: Padding(
-              padding: const EdgeInsets.only(top: 16.0, bottom: 16.0),
+              padding: const EdgeInsets.only(top: 8.0, bottom: 18.0),
               child: Text(
                 "Build your career with Mohamed Abo Elfadl",
                 style: TextStyle(
                   color: Colors.black.withOpacity(0.5),
-                  fontSize: 18.0,
+                  fontSize: 16.0,
                 ),
               ),
             ),
@@ -42,12 +42,12 @@ class NotesItem extends StatelessWidget {
               icon: const Icon(
                 FontAwesomeIcons.trash,
                 color: Colors.black,
-                size: 24.0,
+                size: 22.0,
               ),
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(right: 35.0),
+            padding: const EdgeInsets.only(right: 20.0),
             child: Text(
               "10 Oct 2023",
               style: TextStyle(
